@@ -50,7 +50,6 @@ class FitnessResults:
         return yhat
 
     #------------------------------------------------------------------------------
-    #Ahmad Hadaegh: Modified  on: July 16, 2013
 
     def calc_fitness(self, xi, Y, Yhat, c=2):
         """
@@ -70,7 +69,6 @@ class FitnessResults:
         #print(theFitness)
         return theFitness
     #------------------------------------------------------------------------------
-    # Ahmad Hadaegh: Modified  on: July 16, 2013
     def InitializeTracks(self):
         trackDesc = {}
         trackFitness = {}
@@ -83,7 +81,6 @@ class FitnessResults:
         return  trackDesc, trackFitness, trackModel, trackR2, trackQ2, \
                 trackR2PredValidation, trackR2PredTest
     #------------------------------------------------------------------------------
-    #Ahmad Hadaegh: Modified  on: July 16, 2013
     def initializeYDimension(self):
         yTrain = {}
         yHatTrain = {}
